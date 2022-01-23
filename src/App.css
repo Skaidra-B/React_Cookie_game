@@ -1,0 +1,64 @@
+.App {
+  height: 100vh;
+
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img {
+  cursor: pointer;
+  height: 300px;
+}
+
+.spin {
+  animation-name: anim1;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+
+}
+
+@keyframes anim1 {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.d-flex {
+  display: flex;
+}
+.j-center {
+  justify-content: center;
+}
+.a-center {
+  align-items: center;
+}
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+.container {
+  height: 100%;
+  text-align: center;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.column {
+  flex-direction: column;
+}
